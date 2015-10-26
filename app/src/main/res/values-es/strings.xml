@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Medellin Para Todos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Opciones</string>
+    <string name="tCinema">Cine</string>
+    <string name="tTheater">Teatro</string>
+    <string name="tParty">Fiesta</string>
+    <string name="tRestaurants">Restaurantes</string>
+    <string name="tTourism">Turismo</string>
+    <string name="tPrincipal">Medellín Para Todos</string>
+
+    <string name="tCinecolombia">Centro Comercial Santa fé</string>
+    <string name="tRoyalfilms">Premium Plaza</string>
+    <string name="tProcinal">Centro Comercial Mayorca</string>
+
+    <string name="tCinecolombia1">Cadena de Cines: CineColombia</string>
+    <string name="tCinecolombia2">Precios </string>
+    <string name="tCinecolombia3">http://www.cinecolombia.com/medellin</string>
+
+    <string name="tRoyalfilms1">Cadena de Cines: Royal Films</string>
+    <string name="tRoyalfilms2">Precios </string>
+    <string name="tRoyalfilms3">http://www.royal-films.com/</string>
+
+    <string name="tProcinal1">Cadena de Cines: Cinemas Procinal</string>
+    <string name="tProcinal2">Precios </string>
+    <string name="tProcinal3">http://www.procinal.com.co/</string>
+
+    <string name="tMatacandelas">Teatro Matacandelas</string>
+    <string name="tMatacandelas1">http://www.matacandelas.com/</string>
+    <string name="tMatacandelas2">Cl. 47 #47 43</string>
+    <string name="tMatacandelas3">(4) 2151010</string>
+
+    <string name="tPabloTobon">Teatro Pablo Tobón Uribe</string>
+    <string name="tPabloTobon1">http://www.teatropablotobon.com/</string>
+    <string name="tPabloTobon2">Retorno a La CL52 Al #51-24</string>
+    <string name="tPabloTobon3">(4) 2397500</string>
+
+    <string name="tPequeno">Pequeño Teatro</string>
+    <string name="tPequeno1">http://www.pequenoteatro.com/web/</string>
+    <string name="tPequeno2">Cra. 42 #50A-12, Medellín, Antioquia</string>
+    <string name="tPequeno3">(4) 2393947</string>
+
+    <string name="tSancarbon">Restaurant San Carbón</string>
+    <string name="tSancarbon1">http://www.sancarbon.com.co/</string>
+    <string name="tSancarbon2">Las Lomas, Medellin, Antioquia</string>
+    <string name="tSancarbon3">(4) 3117602</string>
+
+    <string name="tAlrojo">Restaurante Al Rojo</string>
+    <string name="tAlrojo1">http://www.restaurantealrojo.com/</string>
+    <string name="tAlrojo2">Cra. 38 #38 - 09, Medellín, Antioquia</string>
+    <string name="tAlrojo3">(4) 3115757</string>
+
+    <string name="tBabylon">Babylon </string>
+    <string name="tBabylon1">http://www.discotecasmedellin.com/discotecababylon/</string>
+    <string name="tBabylon2">Cra. 41 #41-22, Medellín, Antioquia</string>
+    <string name="tBabylon3">311 6252334</string>
+
+    <string name="tTibiri">El Tibiri</string>
+    <string name="tTibiri1">https://www.facebook.com/tibiri.bar</string>
+    <string name="tTibiri2">Cr 70 No 44b - 01</string>
+    <string name="tTibiri3">310 8495461</string>
+
+    <string name="tBlue">Blue</string>
+    <string name="tBlue1">https://www.facebook.com/pages/Blue-Medellin//</string>
+    <string name="tBlue2">Calle 10 #40-20, Poblado</string>
+    <string name="tBlue3">(4) 266-3047</string>
+
+    <string name="tElcielo">Restaurante El Cielo</string>
+    <string name="tElcielo1">http://www.sancarbon.com.co/</string>
+    <string name="tElcielo2">Carrera 40 # 10A-22, Medellín, El Poblado</string>
+    <string name="tElcielo3">(4) 2683002</string>
+
+    <string name="tFeria">La Feria de Las Flores</string>
+    <string name="tFeria1">http://feriadelasfloresmedellin.gov.co/</string>
+    <string name="tFeria2">Carrera 40 # 10A-22, Medellín, El Poblado</string>
+    <string name="tFeria3">(4) 2683002</string>
+
+    <string name="tPenol">El Peñol</string>
+    <string name="tPenol1">http://www.lapiedradelpenol.com/</string>
+    <string name="tPenol2">Carrera 40 # 10A-22, Medellín, El Poblado</string>
+    <string name="tPenol3">(4) 2683002</string>
+
+    <string name="tPrado">Barrio Prado</string>
+    <string name="tPrado1">http://www.guiaturisticademedellin.com/index.php/es/atractivos/barrio-prado-top</string>
+    <string name="tPrado2">Carrera 40 # 10A-22, Medellín, El Poblado</string>
+    <string name="tPrado3">(4) 2683002</string>
+
+    <string name="title_activity_splash">splash</string>
+    <string name="title_activity_cinema">CinemaActivity</string>
+    <string name="title_activity_theater">TheaterActivity</string>
+    <string name="title_activity_restaurants">RestaurantsActivity</string>
+    <string name="title_activity_party">PartyActivity</string>
+    <string name="title_activity_tourism">TourismActivity</string>
+
+    <string name="tOtrosCinecolombia">Otros teatros de Cine Colombia: </string>
+    <string name="tOtrosProcinal">Otros teatros de Procinal: </string>
+    <string name="tOtrosRoyal">Otros teatros de Royal Films: </string>
+
+    <string name="tAboutTheatre">Acerca del teatro: </string>
+    <string name="tAboutMatacandelas">La Asociación Colectivo Teatral Matacandelas es una entidad sin ánimo de lucro creada en el año de 1979 y elevada a la categoría de Patrimonio Cultural de la Ciudad de Medellín en 1991. En sus 36 años de existencia ha producido más de 50 montajes, entre ellos unos 12 pertenecientes al teatro de títeres.\n El Teatro Matacandelas ha ganado en los últimos años un amplio reconocimiento en el ámbito nacional e internacional, prueba de ello ha sido la invitación a los Festivales Internacionales de Teatro de Cádiz, Bogotá y Manizales así como la gira por algunos países europeos (Portugal, España, Francia y Bélgica) efectuada en el año de 1993, la temporada realizada en Guatemala en 1994, la participación como invitado especial al Festival de teatro de la frontera con presentaciones en las ciudades de Cúcuta y San Cristóbal (Venezuela) en 1995, la temporada en el Teatro Olimpia de Madrid en junio de 1997, la participación en el Festival internacional de Almada (Portugal), la Muestra internacional de teatro de Rivadavia (España) también en 1997, la invitación a Mayo teatral 2001, 2004 y 2010 en Cuba, la participación en el Festival internacional de teatro y la Feria del libro de Santo Domingo, República Dominicana en 2006 y 2007, el Festival internacional de Lima, 2006, además de diferentes participaciones en el Festival internacional de Manizales y el Festival iberoamericano de Teatro de Bogotá.</string>
+    <string name="tAboutPequeno">PEQUEÑO TEATRO nació en 1975 como la respuesta de un grupo de actores a su interés de profesionalizar una actividad que había sido hasta ese momento sólo un hobby. Desde entonces hemos enfrentado las necesidades del día a día para brindar a Medellín un espacio de reflexión teatral. En esta misión se concentra un grupo estable de actores con una formación académica, cultural y profesional, configurando una infraestructura apropiada para las artes y brindando al público que disfruta el teatro, una temporada permanente de arte escénico. Somos uno de los grupos con mayor producción teatral en el país: setenta montajes en treinta y cinco años caracterizan nuestra dedicación y profesionalismo.\n Hoy disponemos de un teatro para 500 espectadores y otro teatro de cámara para 90 más, ambos ubicados en una sede propia desde 1987. Ofrecemos una Escuela de Formación de Actores, una completa biblioteca temática y una galería de arte. Esta producción nos ha permitido realizar nuestra temporada permanente con más de trescientas funciones por año y una asistencia comprobada de 600.000 espectadores a partir de la entrada en vigencia de nuestro proyecto Entrada Libre y aporte Voluntario.\n Pequeño Teatro de Medellín toma su nombre de “pequeño teatro” la denominación que recibió el drama, después de ser definida la ópera como el “El Gran Teatro”. También en homenaje al grupo que condujo Konstantin Stanislavsky, creador del teatro moderno y al Píccolo Teatro Di Milano, dirigido por Giorgio Strehler, uno de dramaturgos enriquecedores del teatro contemporáneo.\n La permanente actividad de investigación, creación y docencia ha hecho de PEQUEÑO TEATRO uno de los grupos más sólidos y representativos del movimiento escénico colombiano. Sus oficinas y teatros se encuentran en una casona de arquitectura republicana ubicada en el centro de la ciudad (Córdoba x La Playa). Por su talento humano y por la infraestructura física PEQUEÑO TEATRO fue declarado patrimonio.</string>
+    <string name="tAboutPablo">La Fundación Teatro Pablo Tobón fue establecido por el Decreto N ° 487 de 13 de octubre de 1952, como una institución de carácter social y cultural, con el fin de ofrecer un teatro moderno Medellín muesca, para la presentación de espectáculos artísticos, teatrales, musicales, literarias y eventos científicos, a través del cual se fomenta el avance cultural de Antioquia.\n Su habitación es un punto de encuentro, un lugar para el ocio y la recreación, para la formación y para el disfrute de las diferentes expresiones artísticas. El Teatro Pablo Tobón es hoy un centro de proyección cultural, la gente quería que una vez tuvo la idea de dar a Medellín un teatro, y fueron guiados por el patrón de la cultura antioqueña Don Pablo Tobón.</string>
+
+    <string name="tAboutRestaurant">Acerca del Restaurante: </string>
+    <string name="tAboutAlrojo">Al rojo es un sitio especializado en comida italiana, es un sitio  que cuenta con una excelente ubicación ya que se encuentra en una de la zonas mas céntricas y accesibles de la ciudad, el encanto de al rojo radica en su deliciosa cocina y en maravilloso ambiente que posee ya que tiene la virtud de alejarnos de la realidad remontándonos al esplendor del mundo sobrio, romántico y tradicionalista.</string>
+    <string name="tAboutElcielo">Creatividad y originalidad se fusionan en el restaurante El Cielo, donde el chef Juan Manuel Barrientos resultado único y mágico de su investigación y platos imaginativos. El menú cambia cada mes y es una aventura que le permite degustar diferentes platos, a continuación, destacando sus sabores, aromas y textura única. En El Cielo se dejan de lado las técnicas tradicionales como el cocido, asado o frito, dando paso a los procesos de la cocina molecular. </string>
+    <string name="tAboutSancarbon">El 23 de abril de 2003, San Carbón Parrilla Bar abrió sus puertas al público, gracias al sueño de un grupo de amigos que esbozaron una idea del restaurante que le hacía falta a Medellín. Ubicación estratégica, ambiente abierto y acogedor, exclusiva oferta gastronómica y un excelente servicio, fueron los pilares, que hoy 11 años después, hacen de éste un referente gastronómico de nuestra Ciudad.\n Pero en nuestro Restaurante queremos ir más allá, por eso ofrecemos una oferta de entretenimiento complementaria a nuestro servicio gastronómico, ofreciendo a nuestros comensales semanalmente una variada programación de shows artísticos y musicales, con la presencia los grupos propios del Restaurante, además de artistas de reconocimiento nacional para la celebración de diversos eventos durante todo el año.\n Gracias a su amplia sede, San Carbón Parrilla Bar se ha convertido también en el espacio propicio para la realización de eventos, seminarios y capacitaciones; además de posicionarse como un establecimiento que promueve la cultura del maridaje con la realización de catas de vinos y licores, y con la celebración de noches de parrilla de fundaciones y empresas en general de la Ciudad.</string>
+    <string name="tAboutPlace">Acerca de este lugar: </string>
+    <string name="tAboutPrado">TEl barrio Prado nació en 1926, fue una zona residencial donde la elite empresarial construyo lujosas casas con estilos importados de Europa, incorporando trabajos artesanales sobresalientes con mano de obra local. El barrio fue diseñado con amplias calles, antejardines y grandes árboles, cadmios y guayacanes floridos, ubicados en las calles y carreras.Prado es reconocido por ser una destacada muestra de la arquitectura domestica construida en Medellín hasta 1950. El "Plan de Protección Patrimonial", acuerdo del concejo del año 2009, definió al barrio Prado como el sector de conservación patrimonial de la ciudad. Hoy es sede de diversas entidades culturales que, lideradas por la Asociación de Entidades Culturales Asencultura, trabajan en la revitalización cultural del sector para propiciar el disfrute ciudadano de la memoria y el patrimonio.</string>
+    <string name="tAboutFeria">La Feria de Las Flores se realiza en el mes de agosto, el evento reúne  a los Antioqueños y a miles de turistas que visitan la ciudad de Medellín, en estos días, convirtiéndolo en un espacio que vibra con las flores, la alegría, la paz y la diversión. Es por eso que Medellín es conocida como “La Ciudad de la Eterna Primavera”.\n Cada año, miles de personas se reúnen en torno a la fiesta, toda la región celebra el florecimiento de la raza y sus costumbres.".</string>
+    <string name="tAboutPenol">Ubicada a 70 kilómetros de Medellín y con una gran escalera interna que cuenta con 649 escalones, la Piedra del Peñol es el sitio más visitado por los antioqueños.\n Ofrece a los turistas una hermosa vista sobre la represa de Guatapé, sitio ideal para los amantes de la practica de deportes náuticos.\n La represa, creada por las Empresas Públicas de Medellín, inundó parte del municipio, además de algunas veredas aledañas, obligando a sus habitantes a cambiar la base de su economía, la agricultura, por una nueva, la pesca.</string>
+    <string name="tAboutClub">Acerca de ésta discoteca: </string>
+    <string name="tAboutBlue">Cansado de los sonidos repetitivos del reggaeton? ¿No está de ánimo para encender las pistas de baile de un club de salsa? El Blue, ubicado cerca del Parque Lleras en la Calle 10 podría ser el lugar oerfecto para usted. Este lugar, para el cual no necesitará un alto presupuesto, presenta una variedad de ritmos alternativos con largos momentos de música rock y retro. Aquí escuchará de todo, desde The Clash y Rolling Stones hasta Rage Against the Machine y Metallica en un misma noche, alternando con un poco de indie, pop, electro y rock colombiano en una buena medida. Además, el lugar también es escenario de algunas bandas locales.</string>
+    <string name="tAboutBabylon">Es una discoteca crossover donde la decoración evoca personajes que nos marcaron en los 80´s como: súper Mario, Batman etc. Babylon nació hace 23 años con la aspiración de ser una de las mejores discotecas del país y conseguir su respectivo reconocimiento, lo cual lo hemos conseguido con dedicación; Es por esto que nos esmeramos por dar el mejor servicio a nuestros clientes. Con capacidad para 500 rumberos con los gustos más exigentes; el sitio está abierto desde las 10:00pm hasta las 04:00am tenemos variedad de productos a la venta BABYLON es un lugar donde la gente se encuentra para pasar una noche única con la mejor música, los mejores artistas invitados de (talla nacional como internacional) Brindamos excelente servicio identificando sus necesidades, ofrecemos diversión y esparcimiento con seguridad </string>
+    <string name="tAboutTibiri">Recomendaciones
+    Si quieres ir al Tibiri acepta al sudor como tu compañero.
+    Toma cerveza para la sed y el calor.
+    Lleva zapatos cómodos para bailar.
+    Puedes ir solo o acompañado: en el Tibiri nunca te quedarás sin pareja.
+    Si estás buscando un lugar elegante elige otra vez.
+    Olvídate de la salsa romántica y la que está de moda. En el Tibiri escucharás sólo esa salsa clásica, la brava, la pesada, esa que te exige un buen estado físico para soportar toda una noche en este lugar.</string>
+
+    <string name="AboutActivityText">Desarrollado por: Sebastián Paniagua Isaza, Estudiante de Ingenieria Electrónica, Desarrollo de Aplicaciones Móviles</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="oAbout">Acerca de...</string>
+    oAbout
+    <string name="title_activity_about">Acerca de</string>
+</resources>

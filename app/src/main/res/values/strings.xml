@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Medellin Para Todos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tCinema">Cinema</string>
+    <string name="tTheater">Theater</string>
+    <string name="tParty">Party</string>
+    <string name="tRestaurants">Restaurants</string>
+    <string name="tTourism">Tourism</string>
+    <string name="tPrincipal">Medellín Para Todos</string>
+
+    <string name="tCinecolombia">Centro Comercial Santa fé</string>
+    <string name="tRoyalfilms">Premium Plaza</string>
+    <string name="tProcinal">Centro Comercial Mayorca</string>
+
+    <string name="tCinecolombia1">Theatre Chain: CineColombia</string>
+    <string name="tCinecolombia2">Prices </string>
+    <string name="tCinecolombia3">http://www.cinecolombia.com/medellin</string>
+
+    <string name="tRoyalfilms1">Theatre Chain: Royal Films</string>
+    <string name="tRoyalfilms2">Prices </string>
+    <string name="tRoyalfilms3">http://www.royal-films.com/</string>
+
+    <string name="tProcinal1">Theatre Chain: Cinemas Procinal</string>
+    <string name="tProcinal2">Prices </string>
+    <string name="tProcinal3">http://www.procinal.com.co/</string>
+
+    <string name="tMatacandelas">Teatro Matacandelas</string>
+    <string name="tMatacandelas1">http://www.matacandelas.com/</string>
+    <string name="tMatacandelas2">Cl. 47 #47 43</string>
+    <string name="tMatacandelas3">(4) 2151010</string>
+
+    <string name="tPabloTobon">Teatro Pablo Tobón Uribe</string>
+    <string name="tPabloTobon1">http://www.teatropablotobon.com/</string>
+    <string name="tPabloTobon2">Retorno a La CL52 Al #51-24</string>
+    <string name="tPabloTobon3">(4) 2397500</string>
+
+    <string name="tPequeno">Pequeño Teatro</string>
+    <string name="tPequeno1">http://www.pequenoteatro.com/web/</string>
+    <string name="tPequeno2">Cra. 42 #50A-12, Medellín, Antioquia</string>
+    <string name="tPequeno3">(4) 2393947</string>
+
+    <string name="tSancarbon">San Carbón Restaurant</string>
+    <string name="tSancarbon1">http://www.sancarbon.com.co/</string>
+    <string name="tSancarbon2">Las Lomas, Medellin, Antioquia</string>
+    <string name="tSancarbon3">(4) 3117602</string>
+
+    <string name="tAlrojo">Al Rojo Restaurant</string>
+    <string name="tAlrojo1">http://www.restaurantealrojo.com/</string>
+    <string name="tAlrojo2">Cra. 38 #38 - 09, Medellín, Antioquia</string>
+    <string name="tAlrojo3">(4) 3115757</string>
+
+    <string name="tBabylon">Babylon </string>
+    <string name="tBabylon1">http://www.discotecasmedellin.com/discotecababylon/</string>
+    <string name="tBabylon2">Cra. 41 #41-22, Medellín, Antioquia</string>
+    <string name="tBabylon3">311 6252334</string>
+
+    <string name="tTibiri">El Tibiri</string>
+    <string name="tTibiri1">https://www.facebook.com/tibiri.bar</string>
+    <string name="tTibiri2">Cr 70 No 44b - 01</string>
+    <string name="tTibiri3">310 8495461</string>
+
+    <string name="tBlue">Blue</string>
+    <string name="tBlue1">https://www.facebook.com/pages/Blue-Medellin//</string>
+    <string name="tBlue2">Calle 10 #40-20, Poblado</string>
+    <string name="tBlue3">(4) 266-3047</string>
+
+    <string name="tElcielo">El Cielo Restaurant</string>
+    <string name="tElcielo1">http://www.sancarbon.com.co/</string>
+    <string name="tElcielo2">Carrera 40 # 10A-22, Medellín, El Poblado</string>
+    <string name="tElcielo3">(4) 2683002</string>
+
+    <string name="tFeria">La Feria de Las Flores</string>
+    <string name="tFeria1">http://feriadelasfloresmedellin.gov.co/</string>
+    <string name="tFeria2">Carrera 40 # 10A-22, Medellín, El Poblado</string>
+    <string name="tFeria3">(4) 2683002</string>
+
+    <string name="tPenol">El Peñol</string>
+    <string name="tPenol1">http://www.lapiedradelpenol.com/</string>
+    <string name="tPenol2">Carrera 40 # 10A-22, Medellín, El Poblado</string>
+    <string name="tPenol3">(4) 2683002</string>
+
+    <string name="tPrado">Barrio Prado</string>
+    <string name="tPrado1">http://www.guiaturisticademedellin.com/index.php/es/atractivos/barrio-prado-top</string>
+    <string name="tPrado2">Carrera 40 # 10A-22, Medellín, El Poblado</string>
+    <string name="tPrado3">(4) 2683002</string>
+
+    <string name="title_activity_splash">splash</string>
+    <string name="title_activity_cinema">CinemaActivity</string>
+    <string name="title_activity_theater">TheaterActivity</string>
+    <string name="title_activity_restaurants">RestaurantsActivity</string>
+    <string name="title_activity_party">PartyActivity</string>
+    <string name="title_activity_tourism">TourismActivity</string>
+
+    <string name="tOtrosCinecolombia">Other theatres of Cine Colombia: </string>
+    <string name="tOtrosProcinal">Other theatres of Procinal: </string>
+    <string name="tOtrosRoyal">Other theatres of Royal Films: </string>
+
+    <string name="tAboutTheatre">About the Theatre: </string>
+    <string name="tAboutMatacandelas">The Collective Matacandelas Theatrical Association is a nonprofit organization founded in 1979 and elevated to the category of Cultural Heritage of the City of Medellin in 1991. In its 36 years of existence has produced over 50 productions, including some 12 belonging to the puppet theater.
+Matacandelas Theatre has won in recent years is widely recognized nationally and internationally, the proof was the invitation to the International Festival of Theater of Cadiz, Bogota and Manizales and touring some European countries (Portugal, Spain France and Belgium) made in the year 1993, the season held in Guatemala in 1994, participation as special guest theater festival with performances in the border cities of Cucuta and San Cristobal (Venezuela) in 1995, the season Olympia Theatre in Madrid in June 1997, participation in the International Festival of Almada (Portugal), the International Theater of Rivadavia (Spain) also in 1997, the invitation to May Stage 2001, 2004 and 2010 in Cuba, participation in the International Theatre Festival and the Book Fair of Santo Domingo, Dominican Republic in 2006 and 2007, the International Festival of Lima, 2006, and several participations in the International Festival of Manizales and the Iberoamerican Theater Festival Bogotá . </string>
+    <string name="tAboutPequeno">Pequeño Teatro was born in 1975 as the response of a group of actors to professionalize their interest in an activity that had been until then just a hobby. Since then we have faced the needs of the day to provide a space for reflection Medellin theater. In this mission a stable group of actors is concentrated with academic, cultural and vocational training, setting up an appropriate infrastructure for the arts and providing the public who enjoys the theater, a permanent performing arts season. We are one of the groups most theatrical production in the country: seventy mounts thirty-five years characterized our dedication and professionalism.
+
+Today we have a theater for 500 spectators and a chamber theater for 90 more, both located in its own headquarters since 1987. We offer a Training School for Actors, theme complete library and an art gallery. This production has allowed us to make our permanent season with more than three hundred year functions and proven 600,000 viewers from the effective date of our project Free admission assistance and voluntary contribution.
+
+Pequeño Teatro of Medellín takes its name from "small theater" the name that received the drama, after being defined opera as the "Grand Theatre". Also in honor of the group led Konstantin Stanislavsky, founder of the modern theater and the Piccolo Teatro, directed by Giorgio Strehler, one of enriching playwrights of contemporary theater.
+
+The continuous research, development and teaching has made small theater one of the most solid and representative groups of the Colombian stage movement. Their offices and theaters are in a house of Republican architecture located in the center of the city (Córdoba x Beach). For its human resources and physical infrastructure small theater was declared heritage. </string>
+    <string name="tAboutPablo">The Teatro Pablo Tobon Foundation was established by Decree No. 487 of October 13, 1952, as an institution of social and cultural nature, in order to provide a modern theater Medellin notch, for the presentation of shows artistic, dramatic, musical, literary and scientific events, through which the cultural advancement of Antioquia is encouraged.
+
+Your room is a meeting point, a place for leisure and recreation, for training and for the enjoyment of the different artistic expressions. The Teatro Pablo Tobon is today a center of cultural projection, as people wanted that once had the idea of giving Medellín a theater, and they were led by the patron of the Antiochian culture Don Pablo Tobon. </string>
+
+    <string name="tAboutRestaurant">About the Restaurant: </string>
+    <string name="tAboutAlrojo">Al Rojo is a site specializing in Italian food, it\'s a place that has an excellent location as it is located in one of the most central and accessible areas of the city, the charm of the red is its delicious cuisine and wonderful atmosphereIt is possessing as it has the virtue of reality away from going back to the sober splendor, romantic and traditionalist world.</string>
+    <string name="tAboutElcielo">Creativity and originality are merged in El Cielo restaurant, where the chef Juan Manuel Barrientos has unique and magical outcome of its investigation and imaginative dishes. The menu changes monthly and is an adventure that allows you to tasting different dishes, then highlighting its flavors, aromas and unique texture. In El Cielo are put aside traditional techniques such as cooked, roasted or fried, giving way to the processes of molecular cuisine. </string>
+    <string name="tAboutSancarbon">The April 23, 2003, San Coal Grill Bar opened its doors to the public, thanks to the dream of a group of friends who outlined an idea of ​​the restaurant that he needed to Medellin. Strategic location, open and friendly atmosphere, unique cuisine and excellent service, were the pillars, now 11 years later, make this a gastronomic landmark of our city.
+
+But in our restaurant we go further, we offer a range of complementary entertainment to our food service, offering our guests a varied program of weekly arts and music shows, attended Restaurant own groups, as well as artists of recognition National for holding various events throughout the year.
+
+With its broad based, San Coal Grill Bar has also become ripe for the realization of events, seminars and training space; in addition to position itself as an establishment that promotes the culture of conducting pairing with tastings of wines and spirits, and the celebration of grill nights foundations and companies generally City. </string>
+    <string name="tAboutPlace">About the Place: </string>
+    <string name="tAboutPrado">The Prado neighborhood was born in 1926, it was a residential area where the business elite built lavish homes with styles imported from Europe, incorporating outstanding artisan works with local workforce. The neighborhood was designed with wide streets, porches and large trees, flowering Cadmiums and guayacanes, located in the streets and carreras.Prado is recognized as an outstanding example of domestic architecture built in Medellín until 1950.
+The \'Wealth Protection Plan\' council agreement in 2009, defined the Prado neighborhood as heritage conservation sector of the city. Today it hosts various cultural entities, led by the Association of Cultural Entities Asencultura, working in the cultural revitalization of the sector to promote citizen enjoy the memory and heritage.</string>
+    <string name="tAboutFeria">The Flower Fair takes place in August, the event brings to Antioquia and thousands of tourists who visit the city of Medellin, these days, making it a space that vibrates with flowers, joy, peace and fun. That\'s why Medellin is known as the "City of Eternal Spring".
+
+Each year, thousands of people gather around the party, the entire region celebrates the flowering of the race and customs. </string>
+    <string name="tAboutPenol">Located 70 kilometers from Medellin and great internal staircase has 649 steps, the Piedra del Penol is the site most visited by Antioquia.\n offers tourists a beautiful view over the Guatapé dam, ideal site for lovers of water sports.\n the dam created by the Medellin Public Enterprises, flooded part of the town, plus some surrounding villages, forcing people to change the basis of its economy, agriculture, a new , Fishing. </string>
+    <string name="tAboutClub">About the Club: </string>
+    <string name="tAboutBlue">Tired of the repetitive sounds of reggaeton? Is it not in the mood to turn on the dance floor of a salsa club? The Blue, located near the Parque Lleras on 10th Street oerfecto could be the place for you. This place, for which there need a high budget, presents a variety of alternative rhythms with long moments of rock and retro music. Here you will hear everything from The Clash and Rolling Stones to Rage Against the Machine and Metallica on a night, alternating with a little indie, pop, electro and Colombian rock in for good measure. Also, the place is also the scene of some local bands. </string>
+    <string name="tAboutBabylon">It is a crossover disco where the decor evokes characters that marked us in the 80\'s and Super Mario, Batman etc. Babylon was born 23 years ago with the aim of becoming one of the best clubs in the country and get their respective recognition, which we achieved with dedication; That is why we strive to provide the best service to our customers. Up to 500 rumberos with discerning tastes; the site is open from 10:00 pm until 04:00 am we have variety of products for sale BABYLON is a place where people meet to spend a single night with the best music, the best guest artists (national stature and international ) provide excellent service identifying their needs, we offer fun and recreation safely </string>
+    <string name="tAboutTibiri">recommendations
+
+If you want to go to Tibiri accepts sweat as your partner.
+Take beer for thirst and heat.
+Bring comfortable shoes to dance.
+You can go alone or accompanied: in Tibiri you never run out of partners.
+If you\'re looking for a fancy place choose again.
+Forget the romantic sauce and is fashionable. In the Tibiri you will hear only that classic salsa, brava, heavy, that you requires good physical condition to take a whole night here.</string>
+
+    <string name="AboutActivityText">Developed by: Sebastián Paniagua Isaza, Electronical Engineering Student, Mobile Applications Development</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="oAbout">About...</string>
+    oAbout
+    <string name="title_activity_about">About</string>
+</resources>

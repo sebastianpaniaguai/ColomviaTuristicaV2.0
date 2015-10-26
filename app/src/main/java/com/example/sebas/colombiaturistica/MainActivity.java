@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         Options.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, String.valueOf(parent.getItemIdAtPosition(position)), Toast.LENGTH_LONG).show();
+                //Toast.makeText(MainActivity.this, String.valueOf(parent.getItemIdAtPosition(position)), Toast.LENGTH_LONG).show();
                 int idActivity=(int)parent.getItemIdAtPosition(position);
                 Intent i;
                 switch (idActivity){

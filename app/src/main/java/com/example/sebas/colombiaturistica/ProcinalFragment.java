@@ -11,10 +11,21 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.MapsInitializer;
+import com.google.android.gms.maps.model.CameraPosition;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 
 public class ProcinalFragment extends Fragment {
     ArrayAdapter<String> adaptador;
     ListView listView;
+    static final LatLng ProcinalPos = new LatLng(6.1617553,-75.6073707);
+    MapView mMapView;
+    private GoogleMap googleMap;
     final private ListEntries[] options =
             new ListEntries[]{
                     new ListEntries(R.drawable.puertanorte,"C.C. Puerta del Norte","Autonorte #34-67, Bello, Antioquia","(4) 3746464"),
@@ -33,7 +44,25 @@ public class ProcinalFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_procinal, container, false);
+        View v = inflater.inflate(R.layout.fragment_procinal, container, false);
+        mMapView = (MapView) v.findViewById(R.id.mapView);
+        mMapView.onCreate(savedInstanceState);
+        mMapView.onResume();// needed to get the map to display immediately
+        try {
+            MapsInitializer.initialize(getActivity().getApplicationContext());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        googleMap = mMapView.getMap();
+        MarkerOptions marker = new MarkerOptions().position(ProcinalPos).title("Cinemas Procinal");
+        // adding marker
+        googleMap.addMarker(marker.title("Cinemas Procinal").snippet("C.C. Mayorca"));
+        CameraPosition cameraPosition = new CameraPosition.Builder()
+                .target(ProcinalPos).zoom(15).build();
+        googleMap.animateCamera(CameraUpdateFactory
+                .newCameraPosition(cameraPosition));
+        googleMap.setMyLocationEnabled(true);
+        return v;
     }
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {

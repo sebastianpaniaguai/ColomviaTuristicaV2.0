@@ -13,9 +13,20 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.MapsInitializer;
+import com.google.android.gms.maps.model.CameraPosition;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 import java.util.List;
 
 public class RoyalfilmsFragment extends Fragment {
+    static final LatLng RoyalPos = new LatLng(6.2301319,-75.5717978);
+    MapView mMapView;
+    private GoogleMap googleMap;
     ArrayAdapter<String> adaptador;
     ListView listView;
     final private ListEntries[] options =
@@ -33,7 +44,25 @@ public class RoyalfilmsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.fragment_royalfilms, container, false);
+        View v = inflater.inflate(R.layout.fragment_royalfilms, container, false);
+        mMapView = (MapView) v.findViewById(R.id.mapView);
+        mMapView.onCreate(savedInstanceState);
+        mMapView.onResume();// needed to get the map to display immediately
+        try {
+            MapsInitializer.initialize(getActivity().getApplicationContext());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        googleMap = mMapView.getMap();
+        MarkerOptions marker = new MarkerOptions().position(RoyalPos).title("Cinemas Royal Films");
+        // adding marker
+        googleMap.addMarker(marker.title("Cinemas Royal Films").snippet("C.C. Premium Plaza"));
+        CameraPosition cameraPosition = new CameraPosition.Builder()
+                .target(RoyalPos).zoom(15).build();
+        googleMap.animateCamera(CameraUpdateFactory
+                .newCameraPosition(cameraPosition));
+        googleMap.setMyLocationEnabled(true);
+        return v;
 
     }
     @Override

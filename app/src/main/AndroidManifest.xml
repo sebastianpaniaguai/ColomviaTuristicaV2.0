@@ -2,9 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sebas.colombiaturistica" >
 
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+<!-- The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+     Google Maps Android API v2, but are recommended. -->
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_logo2"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -13,7 +21,7 @@
         </activity>
         <activity
             android:name=".splash"
-            android:label="@string/title_activity_splash" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,29 +30,35 @@
         </activity>
         <activity
             android:name=".CinemaActivity"
-            android:label="@string/title_activity_cinema" >
+            android:label="@string/app_name" >
         </activity>
         <activity
             android:name=".TheaterActivity"
-            android:label="@string/title_activity_theater" >
+            android:label="@string/app_name" >
         </activity>
         <activity
             android:name=".RestaurantsActivity"
-            android:label="@string/title_activity_restaurants" >
+            android:label="@string/app_name" >
         </activity>
         <activity
             android:name=".PartyActivity"
-            android:label="@string/title_activity_party" >
+            android:label="@string/app_name" >
         </activity>
         <activity
             android:name=".TourismActivity"
-            android:label="@string/title_activity_tourism" >
+            android:label="@string/app_name" >
         </activity>
         <activity
             android:name=".About"
-            android:label="@string/title_activity_about"
+            android:label="@string/app_name"
             android:theme="@style/Base.Theme.AppCompat.Dialog.Alert" >
         </activity>
+        <activity android:name="com.example.sebas.colombiaturistica.MapsActivity"
+            android:label="@string/title_activity_maps">
+
+        </activity>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="@string/google_maps_key"/>
     </application>
 
 </manifest>

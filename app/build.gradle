@@ -12,14 +12,21 @@ android {
         versionName "1.0"
     }
     buildTypes {
+        debug {
+            manifestPlaceholders = [google_map_key: "AIzaSyAl8XQPo1y3KDKde32xF6Vmgzp551b3RAo"]
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [google_map_key: "AIzaSyAl8XQPo1y3KDKde32xF6Vmgzp551b3RAo"]
+
         }
+
     }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.google.android.gms:play-services:8.3.0'
 }
